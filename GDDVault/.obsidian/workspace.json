@@ -1,0 +1,250 @@
+{
+  "main": {
+    "id": "3c7516b252201d6a",
+    "type": "split",
+    "children": [
+      {
+        "id": "70999626d7b26df5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "108a1edb6884a19e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Levels/Levels.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Levels"
+            }
+          }
+        ]
+      },
+      {
+        "id": "07d26516f29b6253",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5795bea0e068aa69",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ff3b056910afdb4a",
+    "type": "split",
+    "children": [
+      {
+        "id": "f63ea3e91cf02ffe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2134e5e25a956113",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTimeReverse",
+                "autoReveal": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f21c30c8f79249a7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "f8e0084b60c87ef5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 394.5
+  },
+  "right": {
+    "id": "83bba972ea649649",
+    "type": "split",
+    "children": [
+      {
+        "id": "146160da7d8d9989",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b72540985a91d293",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "1bd78e5c4d8fe13c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "b36480233da6290f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "bb4aee46d810c10a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "3568d799eff47e13",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "5795bea0e068aa69",
+  "lastOpenFiles": [
+    "Levels/Levels.md",
+    "Storywriting/World-Building/Environment.md",
+    "Storywriting/World-Building/Dimwater-Dwelling/The Smithy.md",
+    "Storywriting/World-Building/World-Building.md",
+    "Storywriting/Story.md",
+    "Storywriting/Additional Lore.md",
+    "Interface/Interface.md",
+    "Levels/The Fractured Cliff.md",
+    "Gameplay/Items.md",
+    "Image-Store/Reference/Moodboards/Lumin_Caves_MB.png",
+    "Image-Store/Concept-Art/Seething_Meadows_Concept_001.png",
+    "Gameplay/Gameplay.md",
+    "Gameplay/Shop-And-Economy.md",
+    "Gameplay/Enemies/Broodmother.md",
+    "Art/Artstyle.md",
+    "Audio/Sound-Design.md",
+    "Characters/Adversaries/Adversaries.md",
+    "Characters/Character List.md",
+    "Characters/Playable/Playable Characters.md",
+    "Characters/Adversaries/Gatekeeper.md",
+    "Characters/Adversaries/Archon.md",
+    "Overview.md",
+    "Characters/Notable Characters/The Voidbeast.md",
+    "Characters/Notable Characters/Absolace.md",
+    "Storywriting/World-Building/Dimwater-Dwelling/The Tower.md",
+    "Characters/Playable/Ava-the-Swordsman/Ava Gameplay.md",
+    "Characters/Playable/Ava-the-Swordsman/Ava the Swordsman.md",
+    "Timelines/Absolace Timeline.canvas",
+    "Timelines/World Timeline.canvas",
+    "File Overview.base",
+    "Characters/Notable Characters/Eba'xol.md",
+    "Image-Store/Concept-Art/BJ - AI State Machine Certificate.pdf",
+    "Image-Store/Concept-Art/BJ - Godot 101 - Engine Foundations.pdf",
+    "Image-Store/Reference/Moodboards/Strand_MB.png",
+    "Image-Store/Reference/Moodboards/Seething_Meadows_MB.png",
+    "Image-Store/Concept-Art/Sol Saga Map 002.png",
+    "Image-Store/Concept-Art/Sol Ascendance Hub Area Map 001.png",
+    "Timelines",
+    "Untitled.canvas",
+    "Image-Store/Concept-Art/Absolace-Concept.png",
+    "Gameplay/Enemies",
+    "Image-Store/Reference/Moodboards",
+    "Image-Store/Reference",
+    "Image-Store/Concept-Art",
+    "Image-Store",
+    "Characters/Notable Characters"
+  ]
+}

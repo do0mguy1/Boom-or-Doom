@@ -1,0 +1,13 @@
+views:
+  - type: table
+    name: Table
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - file.tags
+      - aliases
+    sort:
+      - property: aliases
+        direction: ASC
