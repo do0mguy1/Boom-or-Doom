@@ -11,14 +11,12 @@
             "id": "108a1edb6884a19e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Levels/Levels.md",
-                "mode": "source",
-                "source": false
+                "file": "wheelguy_angy.png"
               },
-              "icon": "lucide-file",
-              "title": "Levels"
+              "icon": "lucide-image",
+              "title": "wheelguy_angy"
             }
           }
         ]
@@ -31,13 +29,46 @@
             "id": "5795bea0e068aa69",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Characters/Character List.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Character List"
+            }
+          },
+          {
+            "id": "59ebdd3461127da8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Characters/All Characters/Images.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Images"
+            }
+          },
+          {
+            "id": "960613feea5a8e56",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Characters/jokes and refrances/images.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "images"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -198,8 +229,22 @@
       "bases:Create new base": false
     }
   },
-  "active": "5795bea0e068aa69",
+  "active": "960613feea5a8e56",
   "lastOpenFiles": [
+    "Characters/All Characters/Images.md",
+    "just a snake snake.png",
+    "turtle.png",
+    "Characters/jokes and refrances/images.md",
+    "the litlest light.png",
+    "\"mini me\".png",
+    "radioactive barrel.png",
+    "rad and tmt.png",
+    "colour stealing barrel 3.png",
+    "colour stealing barrel 2.png",
+    "colour stealing barrel 1.png",
+    "colour stealing barrel.png",
+    "Characters/jokes and refrances",
+    "Characters/Character List.md",
     "Levels/Levels.md",
     "Storywriting/World-Building/Environment.md",
     "Storywriting/World-Building/Dimwater-Dwelling/The Smithy.md",
@@ -209,15 +254,12 @@
     "Interface/Interface.md",
     "Levels/The Fractured Cliff.md",
     "Gameplay/Items.md",
-    "Image-Store/Reference/Moodboards/Lumin_Caves_MB.png",
-    "Image-Store/Concept-Art/Seething_Meadows_Concept_001.png",
     "Gameplay/Gameplay.md",
     "Gameplay/Shop-And-Economy.md",
     "Gameplay/Enemies/Broodmother.md",
     "Art/Artstyle.md",
     "Audio/Sound-Design.md",
     "Characters/Adversaries/Adversaries.md",
-    "Characters/Character List.md",
     "Characters/Playable/Playable Characters.md",
     "Characters/Adversaries/Gatekeeper.md",
     "Characters/Adversaries/Archon.md",
@@ -225,26 +267,17 @@
     "Characters/Notable Characters/The Voidbeast.md",
     "Characters/Notable Characters/Absolace.md",
     "Storywriting/World-Building/Dimwater-Dwelling/The Tower.md",
-    "Characters/Playable/Ava-the-Swordsman/Ava Gameplay.md",
-    "Characters/Playable/Ava-the-Swordsman/Ava the Swordsman.md",
     "Timelines/Absolace Timeline.canvas",
     "Timelines/World Timeline.canvas",
     "File Overview.base",
-    "Characters/Notable Characters/Eba'xol.md",
     "Image-Store/Concept-Art/BJ - AI State Machine Certificate.pdf",
     "Image-Store/Concept-Art/BJ - Godot 101 - Engine Foundations.pdf",
-    "Image-Store/Reference/Moodboards/Strand_MB.png",
-    "Image-Store/Reference/Moodboards/Seething_Meadows_MB.png",
-    "Image-Store/Concept-Art/Sol Saga Map 002.png",
-    "Image-Store/Concept-Art/Sol Ascendance Hub Area Map 001.png",
     "Timelines",
     "Untitled.canvas",
-    "Image-Store/Concept-Art/Absolace-Concept.png",
     "Gameplay/Enemies",
     "Image-Store/Reference/Moodboards",
     "Image-Store/Reference",
     "Image-Store/Concept-Art",
-    "Image-Store",
-    "Characters/Notable Characters"
+    "Image-Store"
   ]
 }
