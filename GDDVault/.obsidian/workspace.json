@@ -59,12 +59,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Characters/jokes and refrances/images.md",
+                "file": "in dev/red sphere version.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "images"
+              "title": "red sphere version"
             }
           }
         ],
@@ -231,10 +231,14 @@
   },
   "active": "960613feea5a8e56",
   "lastOpenFiles": [
+    "Screenshot 2026-09-28 at 14.38.49.png",
+    "Screenshot 2026-09-28 at 13.54.23.png",
+    "Characters/jokes and refrances/images.md",
+    "in dev/red sphere version.md",
+    "in dev",
     "Characters/All Characters/Images.md",
     "just a snake snake.png",
     "turtle.png",
-    "Characters/jokes and refrances/images.md",
     "the litlest light.png",
     "\"mini me\".png",
     "radioactive barrel.png",
@@ -242,7 +246,6 @@
     "colour stealing barrel 3.png",
     "colour stealing barrel 2.png",
     "colour stealing barrel 1.png",
-    "colour stealing barrel.png",
     "Characters/jokes and refrances",
     "Characters/Character List.md",
     "Levels/Levels.md",
@@ -266,7 +269,6 @@
     "Overview.md",
     "Characters/Notable Characters/The Voidbeast.md",
     "Characters/Notable Characters/Absolace.md",
-    "Storywriting/World-Building/Dimwater-Dwelling/The Tower.md",
     "Timelines/Absolace Timeline.canvas",
     "Timelines/World Timeline.canvas",
     "File Overview.base",
@@ -277,7 +279,6 @@
     "Gameplay/Enemies",
     "Image-Store/Reference/Moodboards",
     "Image-Store/Reference",
-    "Image-Store/Concept-Art",
-    "Image-Store"
+    "Image-Store/Concept-Art"
   ]
 }
