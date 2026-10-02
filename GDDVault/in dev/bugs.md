@@ -1,0 +1,1 @@
+health text only in editor
