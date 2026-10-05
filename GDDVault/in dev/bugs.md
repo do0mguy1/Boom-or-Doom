@@ -1,1 +1,1 @@
-health text only in editor
+health text only in editor(fixed)

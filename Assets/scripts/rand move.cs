@@ -100,9 +100,9 @@ public class randmove : MonoBehaviour
 
     public void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("touch"))
+        if (collision.gameObject.CompareTag("hurt"))
         {
-            healtht = healtht - 0;
+            healtht = healtht - 1;
             if (healtht <= 0)
             {
                 Destroy(gameObject);

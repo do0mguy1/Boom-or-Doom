@@ -3,6 +3,8 @@ using TMPro;
 
 public class move : MonoBehaviour
 {
+    public TMP_Text rocktext;
+    public int rocks = 7;
     public TMP_Text healthtxt;
     public int health = 7;
     public float speed = 7;
@@ -11,6 +13,7 @@ public class move : MonoBehaviour
     void Start()
     {
         healthtxt.text = ("") + health;
+        rocktext.text = ("") + rocks;
     }
 
     // Update is called once per frame
@@ -34,12 +37,12 @@ public class move : MonoBehaviour
         }
         if(Input.GetKeyDown(KeyCode.Q))
         {
-            health = health - 1;
-            healthtxt.text = ("") + health;
+            
         }
-        if(Input.GetKey(KeyCode.E))
+        if(Input.GetKeyDown(KeyCode.E))
         {
-
+            rocks = rocks - 1;
+            rocktext.text = ("") + rocks;
         }
         if(health == 0)
         {
