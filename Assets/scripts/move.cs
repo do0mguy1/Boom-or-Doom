@@ -3,6 +3,7 @@ using TMPro;
 
 public class move : MonoBehaviour
 {
+    public bool invert = false;
     public TMP_Text rocktext;
     public int rocks = 7;
     public TMP_Text healthtxt;
@@ -19,6 +20,10 @@ public class move : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(invert == true)
+        {
+            
+        }
         if(Input.GetKey(KeyCode.W))
         {  
             playerrb.AddRelativeForce(Vector3.up * speed);
