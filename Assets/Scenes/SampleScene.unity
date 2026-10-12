@@ -1373,7 +1373,7 @@ Transform:
   m_GameObject: {fileID: 652131824}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.806, y: -1.439, z: -0.09}
+  m_LocalPosition: {x: 1.806, y: -1.484, z: -0.09}
   m_LocalScale: {x: 0.25754, y: 0.141647, z: 0.25754}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3374,6 +3374,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2c59ab580e8e41ae94fbba0c93cec70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::move
+  invert: 0
   rocktext: {fileID: 752609202}
   rocks: 7
   healthtxt: {fileID: 1216540770}
