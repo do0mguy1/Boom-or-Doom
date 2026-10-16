@@ -7,3 +7,6 @@ red sphere in room with green triangle and an enemy
 
 you can get the triangle
 ![[Screenshot 2026-10-02 at 10.57.36.png]]
+
+other item and new part of map
+![[Screenshot 2026-10-16 at 13.17.59 1.png]]

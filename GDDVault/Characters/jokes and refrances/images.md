@@ -11,4 +11,4 @@ radioactive barrel
 ![["mini me".png]]
 is it thou
 ![[the litlest light.png]]
-from a movie with "the" before and "on the Christmas tree" after the image name (mite be sligtle wrong)
+from a movie with "on the Christmas tree" after the image name (mite be sligtle wrong)
