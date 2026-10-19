@@ -3,6 +3,9 @@ using TMPro;
 
 public class move : MonoBehaviour
 {
+    private Vector2 direct = Vector2.up;
+    public GameObject rock;
+    public float rockSpeed = 15f;
     public bool invert = false;
     public TMP_Text rocktext;
     public int rocks = 7;
@@ -20,6 +23,16 @@ public class move : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //if(playerrb.linearVelocity.magnitude > 0.1f)
+        //{
+            //direct = playerrb.linearVelocity.normalized;
+        //}
+        float h = Input.GetAxisRaw("Horizontal");
+        float v = Input.GetAxisRaw("Vertical");
+        if(h != 0 || v != 0)
+        {
+            direct = new Vector2(h,v).normalized;
+        }
         if(invert == true)
         {
             
@@ -46,8 +59,13 @@ public class move : MonoBehaviour
         }
         if(Input.GetKeyDown(KeyCode.E))
         {
+            Vector2 spawnPos = (Vector2)transform.position + direct * 1f;
+            GameObject rockIns = Instantiate(rock, spawnPos, Quaternion.identity);
+            Physics2D.IgnoreCollision(rockIns.GetComponent<Collider2D>(), GetComponent<Collider2D>());
+            rockIns.GetComponent<Rigidbody2D>().linearVelocity = direct * rockSpeed;
             rocks = rocks - 1;
             rocktext.text = ("") + rocks;
+            Destroy(rockIns, 5f);
         }
         if(health == 0)
         {

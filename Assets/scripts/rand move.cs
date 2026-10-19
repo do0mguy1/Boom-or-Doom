@@ -9,7 +9,7 @@ public class randmove : MonoBehaviour
     public float pspeed = 2500;
     public float nottimer;
     public float notinterval = 1f;
-    public GameObject ran;
+    //public GameObject ran;
     public float healtht = 5;
     public float timer;
     public float interval = 1f;
@@ -98,10 +98,11 @@ public class randmove : MonoBehaviour
 
 
 
-    public void OnCollisionEnter(Collision collision)
+    public void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("hurt"))
         {
+            Debug.Log("hit");
             healtht = healtht - 1;
             if (healtht <= 0)
             {
