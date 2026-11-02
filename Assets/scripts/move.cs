@@ -65,7 +65,7 @@ public class move : MonoBehaviour
             rockIns.GetComponent<Rigidbody2D>().linearVelocity = direct * rockSpeed;
             rocks = rocks - 1;
             rocktext.text = ("") + rocks;
-            Destroy(rockIns, 5f);
+            Destroy(rockIns, 3f);
         }
         if(health == 0)
         {
