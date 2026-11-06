@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4126360306359994905}
   - component: {fileID: 3331427909639141611}
   - component: {fileID: 6561450881994301802}
+  - component: {fileID: -352770326101771958}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: hurt
@@ -164,5 +165,17 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
+--- !u!114 &-352770326101771958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2142748629210080777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3d7c2cb9ecca45209d99e8c617c09f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::rocks

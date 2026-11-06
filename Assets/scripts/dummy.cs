@@ -26,6 +26,7 @@ public class dummy : MonoBehaviour
             {
                 Destroy(gameObject);
             }
+            Debug.Log("dummy hit");
         }
         if (collision.gameObject.CompareTag("sword"))
         {

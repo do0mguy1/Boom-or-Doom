@@ -14,7 +14,7 @@ public class randmove : MonoBehaviour
     public float timer;
     public float interval = 1f;
     public float tr;
-    public TMP_Text random;
+    [SerializeField] public TextMeshProUGUI random;
     public bool randa = false;
     public float speed = 5;
     public Rigidbody2D playerrb;

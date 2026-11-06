@@ -3,11 +3,12 @@ using TMPro;
 
 public class move : MonoBehaviour
 {
+    public float checkRad = 1.5f;
+    public LayerMask Default;
     private Vector2 direct = Vector2.up;
     public GameObject rock;
     public float rockSpeed = 15f;
     public bool invert = false;
-    public TMP_Text rocktext;
     public int rocks = 7;
     public TMP_Text healthtxt;
     public int health = 7;
@@ -17,7 +18,6 @@ public class move : MonoBehaviour
     void Start()
     {
         healthtxt.text = ("") + health;
-        rocktext.text = ("") + rocks;
     }
 
     // Update is called once per frame
@@ -64,8 +64,11 @@ public class move : MonoBehaviour
             Physics2D.IgnoreCollision(rockIns.GetComponent<Collider2D>(), GetComponent<Collider2D>());
             rockIns.GetComponent<Rigidbody2D>().linearVelocity = direct * rockSpeed;
             rocks = rocks - 1;
-            rocktext.text = ("") + rocks;
             Destroy(rockIns, 3f);
+
+
+
+            //Collider2D hit = Physics2D.OverlapCircle(transform.position, checkRad, Default);
         }
         if(health == 0)
         {
@@ -79,5 +82,11 @@ public class move : MonoBehaviour
             health = health - 1;
             healthtxt.text = ("") + health;
         }
+        //if(collision.gameObject.name.Contains("rock"))
+        //{
+            //Destroy(collision.gameObject);
+            //Debug.Log("rockhit");
+        //}
     }
+    
 }
