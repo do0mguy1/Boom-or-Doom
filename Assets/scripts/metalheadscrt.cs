@@ -5,6 +5,7 @@ using TMPro;
 
 public class metalheadscrt : MonoBehaviour
 {
+    public float healtht = 5;
     public float interval = 1;
     public float timer;
     public TMP_Text metaltxt;
@@ -45,6 +46,30 @@ public class metalheadscrt : MonoBehaviour
             {
                 metalrb.AddRelativeForce(Vector3.down * speed);
                 HeadMetalCount = 0f;
+            }
+        }
+    }
+    public void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("hurt"))
+        {
+            Debug.Log("hit");
+            healtht = healtht - 1;
+            if (healtht <= 0)
+            {
+                Destroy(gameObject);
+            }
+        }
+        if (collision.gameObject.CompareTag("sword"))
+        {
+            healtht = healtht - 0;
+            if (healtht <= 2)
+            {
+                healtht = healtht - 0;
+            }
+            if (healtht <= 0)
+            {
+                Destroy(gameObject);
             }
         }
     }
