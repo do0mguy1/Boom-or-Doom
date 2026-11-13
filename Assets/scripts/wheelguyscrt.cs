@@ -2,11 +2,13 @@ using UnityEngine;
 
 public class wheelguyscrt : MonoBehaviour
 {
+    public bool hit = false;
+    public bool angy = false;
     public GameObject player;
     public float speed = 5;
     public Rigidbody2D wheel;
     public float healtht = 5;
-    public float mindistance = 0f;
+    public float mindistance = 1f;
     public float maxdistance = 20f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -17,11 +19,17 @@ public class wheelguyscrt : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       float currentdistance = Vector3.Distance(transform.position,player.transform.position);
-        if(currentdistance<= maxdistance&&currentdistance>=mindistance)
+       float currentdistance = Vector2.Distance(transform.position,player.transform.position);
+        if(currentdistance <= maxdistance && currentdistance >= mindistance)
         {
-            transform.LookAt(new Vector3(player.transform.position.x,transform.position.y));
-            transform.position+=transform.forward*speed*Time.deltaTime;
+
+            float step = speed * Time.deltaTime; 
+            transform.position = Vector3.MoveTowards(transform.position, player.transform.position, step);
+            
+        }
+        if(angy == true)
+        {
+            speed = 3;
         }
     }
     public void OnCollisionEnter2D(Collision2D collision)
@@ -33,6 +41,11 @@ public class wheelguyscrt : MonoBehaviour
             if (healtht <= 0)
             {
                 Destroy(gameObject);
+            }
+            hit = true;
+            if(hit == true)
+            {
+                angy = true;
             }
         }
         if (collision.gameObject.CompareTag("sword"))
@@ -48,10 +61,10 @@ public class wheelguyscrt : MonoBehaviour
             }
         }
     }
-    //gos to hit player
-    //gets hit
+    //go to hit player
+    //get hit
     //anger intesifis
-    //trys again
-    //gets hit 5 times
-    //dies
+    //try again
+    //get hit 4 times
+    //die
 }

@@ -285,7 +285,7 @@ GameObject:
   - component: {fileID: 325152112}
   m_Layer: 0
   m_Name: wheel guy
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -357,13 +357,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 325152107}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 2.58, y: -0.20479, z: -0.04}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.95, y: 3.95, z: -0.04}
   m_LocalScale: {x: 0.6991414, y: 0.6991414, z: 0.6991414}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &325152110
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -436,7 +436,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &325152112
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -449,12 +449,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5ba17e41e6d147389c97d237198302b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::wheelguyscrt
+  hit: 0
+  angy: 0
   player: {fileID: 1765395478}
-  speed: 5
+  speed: 1
   wheel: {fileID: 325152111}
   healtht: 5
-  mindistance: 0
-  maxdistance: 20
+  mindistance: 1
+  maxdistance: 5
 --- !u!224 &415941471 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8473711723912467147, guid: 702c510614e40430cae2ee0de934d755, type: 3}
@@ -490,7 +492,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &501915712
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2591,7 +2593,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1298181215
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3060,7 +3062,7 @@ MonoBehaviour:
   invert: 0
   rocks: 7
   healthtxt: {fileID: 1216540770}
-  health: 6
+  health: 600
   speed: 8
   playerrb: {fileID: 1765395483}
 --- !u!61 &1765395482
@@ -3691,7 +3693,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1395973080934558766, guid: 85d71c3e8bb4147ec801d9e0e5227ce0, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4350663283265019388, guid: 85d71c3e8bb4147ec801d9e0e5227ce0, type: 3}
       propertyPath: random
